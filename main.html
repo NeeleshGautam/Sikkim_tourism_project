@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sikkim Tourism</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #004d40;
+      color: white;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+    header nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://upload.wikimedia.org/wikipedia/commons/2/2d/Tsomgo_Lake_Sikkim_India.jpg') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+    .search-box {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      display: inline-block;
+    }
+    .search-box input, .search-box button {
+      padding: 10px;
+      margin: 5px;
+      font-size: 16px;
+    }
+    .offers {
+      text-align: center;
+      padding: 50px 20px;
+      background: #e0f2f1;
+    }
+    .offers h2 {
+      font-size: 28px;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 30px;
+    }
+    .card {
+      background: white;
+      margin: 15px;
+      border-radius: 12px;
+      overflow: hidden;
+      width: 300px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card h3 {
+      padding: 15px;
+      font-size: 20px;
+      margin: 0;
+    }
+    .card p {
+      padding: 0 15px 15px;
+      color: #555;
+    }
+    footer {
+      background: #004d40;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Sikkim Tourism</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Destinations</a>
+    <a href="#">Culture</a>
+    <a href="#">Book Now</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Discover the Beauty of Sikkim</h2>
+  <div class="search-box">
+    <input type="text" placeholder="Search places, hotels, monasteries...">
+    <input type="date">
+    <input type="date">
+    <button style="background:#004d40; color:white; border:none;">Search</button>
+  </div>
+</section>
+
+<section class="offers">
+  <h2>Special Offers - Monsoon Travel</h2>
+  <p>Book your Sikkim trip now and get up to 60% off!</p>
+  <div class="cards">
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Rumtek_Monastery%2C_Sikkim.jpg" alt="Rumtek Monastery">
+      <h3>Rumtek Monastery</h3>
+      <p>One of the largest and most famous monasteries in Sikkim.</p>
+    </div>
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Yumthang_Valley%2C_Sikkim%2C_India.jpg" alt="Yumthang Valley">
+      <h3>Yumthang Valley</h3>
+      <p>Also known as the Valley of Flowers – a paradise for nature lovers.</p>
+    </div>
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/NathuLa_pass%2C_Sikkim%2C_India.jpg" alt="Nathula Pass">
+      <h3>Nathula Pass</h3>
+      <p>A high-altitude mountain pass that connects India with Tibet.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Sikkim Tourism | Explore the Himalayas</p>
+</footer>
+
+</body>
+</html>
